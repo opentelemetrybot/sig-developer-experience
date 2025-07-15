@@ -1,0 +1,84 @@
+name: Feature Request
+description: Suggest an improvement to the OpenTelemetry developer experience
+title: "[Feature Request] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest an improvement to the OpenTelemetry developer experience!
+        
+        Please provide as much detail as possible to help us understand your request.
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of what you want to happen.
+      placeholder: I would like to see...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What developer experience problem does this feature solve?
+      placeholder: Currently, developers face issues with...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: How would you like to see this implemented?
+      placeholder: This could be addressed by...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Are there any alternative solutions you've considered?
+      placeholder: Other approaches could include...
+    validations:
+      required: false
+  
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area of Impact
+      description: Which area of developer experience does this affect?
+      multiple: true
+      options:
+        - Documentation
+        - Tooling
+        - API Design
+        - SDK Usage
+        - Getting Started Experience
+        - Instrumentation
+        - Debugging
+        - Performance
+        - Testing
+        - Other
+    validations:
+      required: true
+  
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: Any other context, screenshots, or relevant information.
+      placeholder: Additional details...
+    validations:
+      required: false
+  
+  - type: dropdown
+    attributes:
+      label: Tip
+      description: This element is static, used to render a helpful sub-heading for end-users and community members to help prioritize issues. Please leave as is.
+      options:
+        - <sub>[React](https://github.blog/news-insights/product-news/add-reactions-to-pull-requests-issues-and-comments/) with 👍 to help prioritize this issue. Please use comments to provide useful context, avoiding `+1` or `me too`, to help us triage it. Learn more [here](https://opentelemetry.io/community/end-user/issue-participation/).</sub>
+      default: 0

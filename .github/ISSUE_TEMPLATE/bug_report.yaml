@@ -1,0 +1,104 @@
+name: Bug Report
+description: Report an issue with the OpenTelemetry developer experience
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug that affects the OpenTelemetry developer experience!
+        
+        Please provide as much detail as possible to help us understand and reproduce the issue.
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of what the bug is.
+      placeholder: Describe the issue...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Please provide detailed steps to reproduce the issue.
+      placeholder: |
+        1. Go to...
+        2. Click on...
+        3. See error...
+      value: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+  
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: I expected...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder: Instead, what happened was...
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area Affected
+      description: Which area of developer experience is affected?
+      multiple: true
+      options:
+        - Documentation
+        - Tooling
+        - API Design
+        - SDK Usage
+        - Getting Started Experience
+        - Instrumentation
+        - Debugging
+        - Performance
+        - Testing
+        - Other
+    validations:
+      required: true
+  
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment Information
+      description: Please provide relevant environment details.
+      placeholder: |
+        - Operating System: 
+        - Programming Language: 
+        - OpenTelemetry Version: 
+        - Other relevant details: 
+    validations:
+      required: false
+  
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: Any other context, screenshots, or relevant information.
+      placeholder: Additional details...
+    validations:
+      required: false
+  
+  - type: dropdown
+    attributes:
+      label: Tip
+      description: This element is static, used to render a helpful sub-heading for end-users and community members to help prioritize issues. Please leave as is.
+      options:
+        - <sub>[React](https://github.blog/news-insights/product-news/add-reactions-to-pull-requests-issues-and-comments/) with 👍 to help prioritize this issue. Please use comments to provide useful context, avoiding `+1` or `me too`, to help us triage it. Learn more [here](https://opentelemetry.io/community/end-user/issue-participation/).</sub>
+      default: 0
