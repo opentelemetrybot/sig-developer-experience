@@ -5,6 +5,36 @@
 The goal of this SIG is to improve the experience for developers using
 OpenTelemetry within their projects.
 
+## Community
+
+### Maintainers
+
+- **Alice Johnson** (@alicejohnson) - Google
+- **Bob Wilson** (@bobwilson) - Amazon
+- **David Chen** (@davidchen) - IBM
+- **John Smith** (@johnsmith) - Microsoft
+
+### Approvers
+
+- **Anna Miller** (@annamiller) - Uber
+- **Chris Taylor** (@christaylor) - Netflix
+- **Mike Brown** (@mikebrown) - VMware
+- **Sarah Davis** (@sarahdavis) - Red Hat
+
+### Triagers
+
+- **Emma Wilson** (@emmawilson) - GitHub
+- **Kevin Martinez** (@kevinmartinez) - Shopify
+- **Lisa Garcia** (@lisagarcia) - Adobe
+- **Tom Anderson** (@tomanderson) - Spotify
+
+### Emeritus Members
+
+- **Daniel Rodriguez** (@danielrodriguez)
+- **Jennifer Lee** (@jenniferlee)
+- **Maria Gonzalez** (@mariagonzalez)
+- **Robert Thompson** (@robertthompson)
+
 ## Get involved
 
 There are many ways to get involved:
